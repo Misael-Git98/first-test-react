@@ -1,0 +1,31 @@
+.topnav {
+    height: 5vh;
+    background-color: lightslategrey;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 14px;
+  }
+  
+  .topnav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .topnav a:hover {
+    background-color: #575757;
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: #04aa6d;
+    color: white;
+  }
+  
+  .topnav .link-end {
+    margin-left: auto;
+  }
